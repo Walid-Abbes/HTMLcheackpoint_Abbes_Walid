@@ -2,10 +2,18 @@
   background-color: rgb(15, 15, 15);
   font-family: sans-serif;
   color: rgb(246, 251, 252);
-  
+
   display: contents center;
 }
+.imgs {
+}
 
-.img {
+.container {
   
+  display: flex;
+}
+
+img {
+  width: auto;
+  height: 10%;
 }
