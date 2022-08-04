@@ -4,45 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/CSScheackpoint_Abbes_Walid/css.css" />
     <title>Css | Checkpoint</title>
   </head>
 
   <body>
-    <nav class="navbar">
-      <a href="index.html">Home</a>
-      <a href="index.html">About</a>
-      <a href="index.html">Work</a>
-      <a href="index.html">Resume</a>
-      <a href="index.html">Contact</a>
-    </nav>
-
-    
-      <section>
+    <!---->
+    <header>
+      <nav>
+        <img src="/imgs/logo.png" alt="logo" />
+        <ul>
+          <li><a href="index2.html">Home</a></li>
+          <li><a href="index2.html">About me</a></li>
+          <li><a href="index2.html">Projects</a></li>
+          <li><a href="index2.html">Contact</a></li>
+        </ul>
+        <button>GitHub</button>
+      </nav>
+    </header>
+    <!-- -->
+    <main>
+      <section class="Home">
         <h1>wellcome</h1>
         <video width="480" height="360" autoplay loop>
-          <source src="/vids/wellcome.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video> 
-        </iframe>
+          <source src="/vids/wellcome.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </section>
-      <section>
+
+      <section class="About">
         <h1>About me</h1>
         <p>
           i am an university student who is interested in web development and
           many other stuff
         </p>
-      </section>
-      <section class="img-gal">
-        <h1>My work</h1>
-        <br />
-
-        <nav class="img-grid">
-        
-        </nav>
-      </section>
-      <section>
-        <h1>My resume</h1>
+        <h4>My resume</h4>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
           voluptates at asperiores quisquam eos ullam, architecto animi nostrum
@@ -57,7 +52,21 @@
           <li>arabic.</li>
         </ul>
       </section>
-      <section>
+
+      <section class="Projects">
+        <h1>My Projects</h1>
+        <div class="image-gal">
+          <img src="/imgs/architecture_website.png" alt="architecture_website.png">
+          <img src="/imgs/car_website.png" alt="car_website.png">
+          <img src="/imgs/craftsman_website.png" alt="craftsman_website.png">
+          <img src="/imgs/food_website.png" alt="food_website.png">
+          <img src="/imgs/recepie_website.png" alt="recepie_website.png">
+        </div>
+
+
+
+      </section>
+      <section class="Contact">
         <h1>Contact Me</h1>
         <a href="index.html">Give me a call: 0050555555</a>
         <br />
@@ -84,8 +93,8 @@
           <input type="text" id="message" name="message" />
         </form>
       </section>
-      <br />
-      <footer><h4>Copyright &copy; 1806 AZER all rights reserved</h4></footer>
-  
+    </main>
+    <!---->
+    <footer><h4>Copyright &copy; 1806 AZER all rights reserved</h4></footer>
   </body>
 </html>
