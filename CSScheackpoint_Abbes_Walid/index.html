@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Css | Checkpoint</title>
+    <link rel="stylesheet" href="/CSScheackpoint_Abbes_Walid/css.css" />
   </head>
 
   <body>
     <!---->
-    <header>
-      <nav>
-        <img src="/imgs/logo.png" alt="logo" />
-        <ul>
-          <li><a href="index2.html">Home</a></li>
-          <li><a href="index2.html">About me</a></li>
-          <li><a href="index2.html">Projects</a></li>
-          <li><a href="index2.html">Contact</a></li>
-        </ul>
-        <button>GitHub</button>
-      </nav>
-    </header>
+
+    <nav class="navbar">
+      <img class="logo" src="/imgs/logo.png" alt="logo" />
+      <ul class="navLinks">
+        <li class="nvbL"><a href="index.html">Home</a></li>
+        <li class="nvbL"><a href="index.html">About me</a></li>
+        <li class="nvbL"><a href="index.html">Projects</a></li>
+        <li class="nvbL"><a href="index.html">Contact</a></li>
+      </ul>
+      <a href="https://github.com/Walid-Abbes" target="_blank">
+        <button class="github">GitHub</button></a
+      >
+    </nav>
+
     <!-- -->
     <main>
       <section class="Home">
@@ -44,7 +47,7 @@
           adipisci mollitia!
         </p>
         <h4>My skills</h4>
-        <ul>
+        <ul class="skils">
           <li>Word.</li>
           <li>excel.</li>
           <li>french.</li>
@@ -55,16 +58,20 @@
 
       <section class="Projects">
         <h1>My Projects</h1>
-        <div class="image-gal">
-          <img src="/imgs/architecture_website.png" alt="architecture_website.png">
-          <img src="/imgs/car_website.png" alt="car_website.png">
-          <img src="/imgs/craftsman_website.png" alt="craftsman_website.png">
-          <img src="/imgs/food_website.png" alt="food_website.png">
-          <img src="/imgs/recepie_website.png" alt="recepie_website.png">
+        <div class="image-grid">
+          <img
+            class="image-grid-col-2 image-grid-row-2"
+            src="/imgs/food_website.png"
+            alt="food_website.png"
+          />
+          <img
+            src="/imgs/architecture_website.png"
+            alt="architecture_website.png"
+          />
+          <img src="/imgs/car_website.png" alt="car_website.png" />
+          <img src="/imgs/craftsman_website.png" alt="craftsman_website.png" />
+          <img src="/imgs/recepie_website.png" alt="recipe_website.png" />
         </div>
-
-
-
       </section>
       <section class="Contact">
         <h1>Contact Me</h1>
@@ -91,6 +98,7 @@
           <label for="message">Your message</label>
           <br />
           <input type="text" id="message" name="message" />
+          <button class="submit">submit</button>
         </form>
       </section>
     </main>
