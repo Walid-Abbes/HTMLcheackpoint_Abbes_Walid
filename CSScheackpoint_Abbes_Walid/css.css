@@ -4,7 +4,6 @@
   margin: 0px;
 }
 
-
 nav {
   position: -webkit-sticky;
   position: sticky;
@@ -91,9 +90,8 @@ footer {
   padding: 20px;
   background-color: aqua;
   font-size: larger;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 800;
   letter-spacing: 5px;
-
 }
 /* footer */
