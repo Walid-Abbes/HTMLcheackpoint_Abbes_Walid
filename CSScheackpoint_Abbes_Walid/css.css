@@ -11,7 +11,10 @@ nav {
   width: 100%;
   padding: 0px 20px;
 }
-
+embed {
+  
+  display: none ;
+}
 .navbar {
   display: flex;
   background-color: aqua;
